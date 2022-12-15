@@ -25,3 +25,4 @@ int cmp_inst(char *str1, char *str2)
 		n = 1;
 
 	return (n);
+}
