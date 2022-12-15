@@ -1,0 +1,6 @@
+*~
+[[:alpha:]]
+[[:digit:]]*
+test*
+*.m
+monty
