@@ -1,14 +1,14 @@
 #include "monty.h"
 #include <ctype.h>
- glob_t my_global; 
- /** 
+glob_t my_global; 
+/** 
  * main - Entry point. 
  * @argc: Argument count. 
  * @argv: Argument vector. 
  * Return: EXIT_SUCCESS or EXIT_FAILURE 
  */ 
- int main(int argc, char *argv[]) 
- { 
+int main(int argc, char *argv[]) 
+{ 
          instruction_t opcodes[14] = {{"push", push_s}, {"pall", pall}, {"pint", pint}, 
          {"pop", pop}, {"swap", swap}, {"add", add}, {"sub", sub}, {"div", divi}, 
          {"mul", mul}, {"mod", mod}, {"pchar", pchar}, {"pstr", pstr}, {"rotl", rotl}, 
